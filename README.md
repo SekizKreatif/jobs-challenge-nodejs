@@ -42,7 +42,7 @@ mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile c
 
 socket  
 
-    Anahtar **usercreate**
+    Anahtar usercreate
 
 **Request Veriable**
 
