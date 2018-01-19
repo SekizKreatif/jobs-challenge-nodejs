@@ -1,7 +1,9 @@
 # jobs-challenge-nodejs
 
 Senden bir node.js ve index.html örneği hazırlanınızı istiyoruz.
-### NODEJS Kullanılacak kütüphaneler
+### NODEJS 
+
+Kullanılacak kütüphaneler
 - cluster
 - redis
 - http
@@ -96,7 +98,7 @@ indexleme: language turkish
 - Batmaz
 sonuc getirilecek ekranda gösterilecek.
 
-Index.HTML
+### Index.HTML
 Kullanılacak kütüphaneler
   
 angular veya jquery
