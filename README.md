@@ -38,7 +38,7 @@ alınan bilgiler mongodb user tablosuna kayıt edilecek.
 mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile cache yapılacak. (not: Mongodb getirilecen sonuc arrayini, redis set edilecek ve tekrar eden işlemde redis’den  arrayi getirecek.)
 
 
-### 3)  Kullanıcı kayıt
+### 3)  Kullanıcı Kayıt (socket)
 
 socket  
 
@@ -48,7 +48,7 @@ socket
 
 *name, surname, age ,email ,phone* alınan bilgiler mongodb *user* tablosuna kayıt edilecek.
 
-### 4) Kullanıcı Bilgisi Getir
+### 4) Kullanıcı Bilgisi Getir (socket)
 
 socket  
 
@@ -62,7 +62,7 @@ mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile c
 
 *(not: Mongodb getirilecek sonuç arrayini, redis set edilecek ve tekrar eden işlemde redis’den  arrayi getirecek.)*
 
-### 5) Kullanıcı Yaş Büyükleri getir
+### 5) Kullanıcı Yaş Büyükleri getir (socket)
 
 socket  
 
