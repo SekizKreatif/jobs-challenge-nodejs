@@ -102,8 +102,8 @@ sonuc getirilecek ekranda gösterilecek.
 ### Index.HTML
 Kullanılacak kütüphaneler
   
-angular veya jquery
-socket.io.min.js
+- angular veya jquery
+- socket.io.min.js
 
 Yukarıdaki nodejs methodlarını kullanarak liste şeklinde
  post,get ve socket.io haberleşmesini sağlayın. 
