@@ -90,10 +90,10 @@ mongodb user tablosu name ve/veya surname   arama yapılacak. Google tarzında, 
 Text-Search
 indexleme: language turkish
 
-**Örnek kelime: **
+**Örnek kelime:**
 - Ahmet Hasan Dursun Batmaz
 
-**Aranan Kelime: **
+**Aranan Kelime:**
 - Ahmet
 - Hasan
 - Dursun
