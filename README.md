@@ -54,7 +54,7 @@ socket
 
     Anahtar userget
 
-**Request Veriable**
+**Request Variable**
 
 id
 
