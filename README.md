@@ -92,11 +92,13 @@ indexleme: language turkish
 
 Örnek kelime: 
 - Ahmet Hasan Dursun Batmaz
-- Aranan Kelime: 
+
+Aranan Kelime: 
 - Ahmet
 - Hasan
 - Dursun
 - Batmaz
+
 sonuc getirilecek ekranda gösterilecek.
 
 ### Index.HTML
