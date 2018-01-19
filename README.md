@@ -63,9 +63,10 @@ mongodb user tablosu age > param olan verileri getirsin.
  *(not: Mongodb getirilecen sonuç arrayını, redis set edilecek ve tekrar eden işlemde redis’den  arrayi getirecek.)*
 
 ### 6) Kullanıcıları Arama
+
 socket  
 
-    POST /usersearch/
+    Anahtar usersearch/
 
 param
 mongodb user tablosu name ve/veya surname   arama yapılacak. Google tarzında, kelimeye en  yakın olan arattırma yapılacak. 
