@@ -75,7 +75,7 @@ param
 mongodb user tablosu age > param olan verileri getirsin. 
  *(not: Mongodb getirilecen sonuç arrayını, redis set edilecek ve tekrar eden işlemde redis’den  arrayi getirecek.)*
 
-### 6) Kullanıcıları Arama
+### 6) Kullanıcıları Arama (socket)
 
 socket  
 
