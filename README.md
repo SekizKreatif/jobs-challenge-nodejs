@@ -15,7 +15,8 @@ Senden bir node.js ve index.html örneği hazırlanınızı istiyoruz.
 
      POST /user/create 
 
-Request Veriable
+**Request Veriable**
+
 name
 
 surname
@@ -41,7 +42,8 @@ socket
 
     Anahtar usercreate/
 
-Request Veriable
+**Request Veriable**
+
 *name, surname, age ,email ,phone* alınan bilgiler mongodb *user* tablosuna kayıt edilecek.
 
 ### 4) Kullanıcı Bilgisi Getir
@@ -50,8 +52,9 @@ socket
 
     Anahtar userget
 
-Request Veriable
-**id**
+**Request Veriable**
+
+id
 
 mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile cache yapılacak.
 
@@ -63,8 +66,8 @@ socket
 
     Anahtar userageget/
 
-Request Veriable
-**param** 
+**Request Veriable**
+param
 
 mongodb user tablosu age > param olan verileri getirsin. 
  *(not: Mongodb getirilecen sonuç arrayını, redis set edilecek ve tekrar eden işlemde redis’den  arrayi getirecek.)*
@@ -75,12 +78,14 @@ socket
 
     Anahtar usersearch/
 
-Request Veriable
-**param**
+**Request Veriable**
+
+param
 
 mongodb user tablosu name ve/veya surname   arama yapılacak. Google tarzında, kelimeye en  yakın olan arattırma yapılacak. 
 
-indexleme: turkish
+Text-Search
+indexleme: language turkish
 
 Örnek kelime: 
 - Ahmet Hasan Dursun Batmaz
@@ -101,5 +106,6 @@ Yukarıdaki nodejs methodlarını kullanarak liste şeklinde
  post,get ve socket.io haberleşmesini sağlayın. 
 
 ### MONGODB
+
  user tablosunu index’leme kodlarını yazınız
 
