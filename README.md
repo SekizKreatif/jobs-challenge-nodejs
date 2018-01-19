@@ -1,6 +1,6 @@
 # jobs-challenge-nodejs
 
-Senden bir node.js ve index.html örneği hazırlanınızı istiyoruz.
+Senden bir node.js ve index.html örneği hazırlamanızı istiyoruz.
 ### NODEJS 
 
 Kullanılacak kütüphaneler
