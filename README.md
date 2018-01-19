@@ -35,25 +35,28 @@ mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile c
 
 
 ### 3)  Kullanıcı kayıt
+
 socket  
 
-    POST /usercreate/
+    Anahtar usercreate/
 
 *name, surname, age ,email ,phone* alınan bilgiler mongodb *user* tablosuna kayıt edilecek.
 
 ### 4) Kullanıcı Bilgisi Getir
+
 socket  
 
-    GET /userget/{id}
+    Anahtar userget/{id}
 
 mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile cache yapılacak.
 
 *(not: Mongodb getirilecek sonuç arrayini, redis set edilecek ve tekrar eden işlemde redis’den  arrayi getirecek.)*
 
 ### 5) Kullanıcı Yaş Büyükleri getir
+
 socket  
 
-    POST /userageget/
+    Anahtar userageget/
 
 **param:** 
 mongodb user tablosu age > param olan verileri getirsin. 
