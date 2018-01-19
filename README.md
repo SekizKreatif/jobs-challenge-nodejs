@@ -17,7 +17,7 @@ Kullanılacak kütüphaneler
 
      POST /user/create 
 
-**Request Veriable**
+**Request Variables**
 
 name
 
@@ -44,7 +44,7 @@ socket
 
     Anahtar usercreate
 
-**Request Veriable**
+**Request Variables**
 
 *name, surname, age ,email ,phone* alınan bilgiler mongodb *user* tablosuna kayıt edilecek.
 
@@ -68,7 +68,7 @@ socket
 
     Anahtar userageget
 
-**Request Veriable**
+**Request Variables**
 
 param
 
@@ -81,7 +81,7 @@ socket
 
     Anahtar usersearch
 
-**Request Veriable**
+**Request Variable**
 
 param
 
