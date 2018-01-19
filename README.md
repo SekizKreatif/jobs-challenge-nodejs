@@ -66,9 +66,10 @@ mongodb eklenen kullanıcı bilgisini JSON formatında döndürecek. Redis ile c
 
 socket  
 
-    Anahtar userageget/
+    Anahtar userageget
 
 **Request Veriable**
+
 param
 
 mongodb user tablosu age > param olan verileri getirsin. 
@@ -78,7 +79,7 @@ mongodb user tablosu age > param olan verileri getirsin.
 
 socket  
 
-    Anahtar usersearch/
+    Anahtar usersearch
 
 **Request Veriable**
 
